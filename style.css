@@ -16,12 +16,10 @@ h1 {
   margin-right: 0.5em;
 }
 .computer img {
-  text-align: center;
-  margin-top: 20px;
-}
-.computer img {
-  width: 100px;
-  height: auto;
+  display: block;
+  margin: 20px auto;
+  width: 500px;
+  height: auto;  
 }
 
 p {
