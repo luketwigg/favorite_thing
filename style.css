@@ -10,18 +10,15 @@ h1 {
   font-size: 56px;
   text-align: center;
   margin-left: -175px;
-  margin-bottom: 50px;
 }
 .logo img {
   width: 50px;
   height: auto;
   margin-right: 0.2em;
   margin-left: -175px;
-  margin-bottom: 50px;
 }
 .computer img {
   display: block;
-  margin: 20px auto;
   width: 700px;
   height: auto;  
 }
