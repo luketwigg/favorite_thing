@@ -91,6 +91,7 @@ h1 {
 .code-container {
   width: 100%;
   height: auto;
+  font-size: 11px;
   padding: 10px;
   overflow-y: auto;
   border-radius: 10px;
