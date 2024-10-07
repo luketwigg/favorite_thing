@@ -7,7 +7,6 @@ body {
 
 .logo {
   display: flex;
-  flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -15,13 +14,13 @@ body {
 h1 {
   color: #424242;
   font-size: 56px;
-  text-align: center;
+  margin-left: 10px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .logo img {
   width: 50px;
   height: auto;
-  margin-bottom: 0.2em;
 }
 
 .computer {
@@ -45,9 +44,15 @@ h1 {
 .grey-box {
   background-color: #E9EAEC;
   width: 350px;
-  height: 500px;
+  height: 400px;
   margin: 0 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
+}
+
+p {
+  color: #424242;
+  font-size: 24px;
+  font-family: Helvetica, Arial, sans-serif;
