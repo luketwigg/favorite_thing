@@ -10,10 +10,19 @@ h1 {
   font-size: 56px;
   text-align: center;
 }
-.image-before-text img {
+.logo img {
   width: 50px;
   height: auto;
   margin-right: 0.5em;
+}
+.computer {
+  text-align: center;
+  margin-top: 20px;
+}
+.computer img {
+  width: 100px;
+  height: auto;
+}
 
 p {
   line-height: 1.4em;
