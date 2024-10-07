@@ -9,13 +9,13 @@ h1 {
   color: #424242;
   font-size: 56px;
   text-align: center;
-  margin-left: -200px;
+  margin-left: -175px;
 }
 .logo img {
   width: 50px;
   height: auto;
-  margin-right: 0.5em;
-  margin-left: -200px;
+  margin-right: 0.2em;
+  margin-left: -175px;
 }
 .computer img {
   display: block;
