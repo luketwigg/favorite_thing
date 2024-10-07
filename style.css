@@ -19,6 +19,7 @@ h1 {
 }
 .computer img {
   display: block;
+  margin: center;
   width: 700px;
   height: auto;  
 }
