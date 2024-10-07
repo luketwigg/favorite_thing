@@ -16,7 +16,6 @@ h1 {
   color: #424242;
   font-size: 40px;
   margin-left: 10px;
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 .logo img {
@@ -45,7 +44,7 @@ h1 {
 .grey-box {
   background-color: #E9EAEC;
   width: 350px;
-  height: 400px;
+  height: 300px;
   margin: 0 10px;
   display: flex;
   flex-direction: column;
@@ -61,6 +60,7 @@ h1 {
   flex-direction: column;
   border-radius: 15px;
   overflow: hidden;
+  height: 300px;
 }
 
 .top-section {
@@ -72,12 +72,15 @@ h1 {
 
 .bottom-section {
   background-color: #C0C0C0;
-  flex: 1;
+  height: 50%;
   padding: 0;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
 }
 
 .code-container {
@@ -98,9 +101,8 @@ h1 {
 
 p {
   color: #424242;
-  font-size: 14px; /* Decrease font size */
+  font-size: 14px;
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.5; /* Add line height for spacing */
-}
+  line-height: 1.5;
