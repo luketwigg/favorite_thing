@@ -2,28 +2,51 @@ body {
   background-color: #F3FAFC;
   border-top: 10px solid #424242;
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 h1 {
   color: #424242;
   font-size: 56px;
   text-align: center;
-  margin-left: -175px;
 }
+
 .logo img {
   width: 50px;
   height: auto;
-  margin-right: 0.2em;
-  margin-left: -175px;
+  margin-bottom: 0.2em;
 }
+
+.computer {
+  display: flex;
+  justify-content: center;
+}
+
 .computer img {
   display: block;
-  margin: center;
+  margin: 20px auto;
   width: 700px;
   height: auto;  
 }
 
-p {
-  line-height: 1.4em;
+.grey-boxes {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
 }
+
+.grey-box {
+  background-color: #d9d9d9;
+  width: 350px;
+  height: 100px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
