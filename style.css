@@ -8,6 +8,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -31,7 +32,7 @@ h1 {
 .computer img {
   display: block;
   margin: 20px auto;
-  width: 700px;
+  width: 750px;
   height: auto;  
 }
 
@@ -47,12 +48,22 @@ h1 {
   height: 400px;
   margin: 0 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   border-radius: 15px;
+  padding: 10px;
+}
+
+.header {
+  font-weight: bold;
+  color: #424242;
+  margin-bottom: 10px;
 }
 
 p {
   color: #424242;
   font-size: 24px;
   font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
