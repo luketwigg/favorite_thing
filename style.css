@@ -95,7 +95,7 @@ h1 {
   justify-content: flex-start;
   align-items: center;
   padding-left: 50px;
-  margin-right: 50px;
+  margin-right: 150px;
 }
 
 .header {
@@ -103,7 +103,7 @@ h1 {
   color: #424242;
   margin-bottom: 10px;
   text-align: center;
-  margin-right: 50px;
+  margin-right: 150px;
 }
 
 p {
