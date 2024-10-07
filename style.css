@@ -53,11 +53,27 @@ h1 {
   justify-content: flex-start;
   border-radius: 15px;
   padding: 15px;
+  box-sizing: border-box;
 }
 
-.dark-box {
+.right-box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.top-section {
+  background-color: #E9EAEC;
+  flex: 1;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.bottom-section {
   background-color: #C0C0C0;
-  position: relative;
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .header {
@@ -71,6 +87,7 @@ p {
   font-size: 16px;
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 .code-container {
@@ -80,4 +97,3 @@ p {
   overflow-y: auto;
   background-color: #C0C0C0;
   border-radius: 10px;
-}
